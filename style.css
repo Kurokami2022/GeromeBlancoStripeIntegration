@@ -1,0 +1,90 @@
+body {
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('bgbg.jpg');
+  background-position: center;
+  background-size: cover;
+  font-family: 'Teko', sans-serif;
+}
+
+h1 {
+  text-align: left;
+  font-size: 70px;
+  color: Black;
+  margin: 20px;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #d7d3ca;
+  border-color: aqua;
+}
+
+.row1 ul {
+  list-style: none;
+  font-size: 20px;
+  display: flex;
+  width: 50%;
+  margin: 45px;
+}
+
+.row1 ul li {
+  display: flex;
+  border-spacing: 20px;
+  margin-right: 20px;
+  background-color: #d7d3ca;
+  border-radius: 20px;
+  box-sizing: content-box;
+  border-style: solid;
+  border-color: aqua;
+}
+
+.row1 ul li a {
+  text-decoration: none;
+  color: black;
+  flex: 0;
+  border: 2px;
+  margin: 15px;
+  text-align: center;
+}
+
+.row1 ul li a:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  transition:1s;
+  color: blue;
+}
+
+
+.row2 ul {
+  list-style: none;
+  font-size: 20px;
+  display: flex;
+  width: 50%;
+  margin: 30px;
+}
+
+.row2 ul li {
+  display: flex;
+  border-spacing: 20px;
+  margin-right: 20px;
+  background-color: #d7d3ca;
+  border-radius: 20px;
+  box-sizing: content-box;
+  border-style: solid;
+  border-color: aqua;
+}
+
+.row2 ul li a {
+  text-decoration: none;
+  color: black;
+  flex: 0;
+  border: 2px;
+  margin: 15px;
+  text-align: center;
+}
+
+.row2 ul li a:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  transition:1s;
+  color: blue;
+}
